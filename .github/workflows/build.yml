@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Zip extension
         run: |
@@ -17,7 +17,7 @@ jobs:
           zip -r ../gemini-wide-screen.zip *
           
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: gemini-wide-screen
           path: gemini-wide-screen.zip
