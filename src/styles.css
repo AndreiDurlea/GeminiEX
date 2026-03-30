@@ -40,6 +40,30 @@ user-message,
     text-align: left !important;
 }
 
+/* Edit mode */
+[class*="user-query-"] textarea,
+[class*="user-query-"] [contenteditable],
+[class*="user-query-"] [class*="edit"],
+[class*="user-message"] textarea,
+[class*="user-message"] [contenteditable],
+[class*="user-message"] [class*="edit"],
+[class*="edit-message"],
+[class*="inline-edit"] {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    flex-direction: column !important;
+}
+[class*="user-query-"]:has(textarea),
+[class*="user-query-"]:has([contenteditable]),
+[class*="user-message"]:has(textarea),
+[class*="user-message"]:has([contenteditable]) {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    justify-content: flex-start !important;
+}
+
 .markdown-table-wrapper, 
 .markdown-table-wrapper table,
 .message table {
