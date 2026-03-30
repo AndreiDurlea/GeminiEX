@@ -4,6 +4,7 @@
 ![Firefox](https://img.shields.io/badge/Firefox-supported-FF7139?style=flat&logo=Firefox-Browser&logoColor=white)
 ![Edge](https://img.shields.io/badge/Edge-supported-0078D7?style=flat&logo=Microsoft-Edge&logoColor=white)
 ![Opera](https://img.shields.io/badge/Opera-supported-FF1B2D?style=flat&logo=Opera&logoColor=white)
+![Version](https://img.shields.io/badge/version-1.0.2-blue?style=flat)
 
 Makes the Google Gemini (`gemini.google.com`) chatbox use the full width of your screen, instead of leaving empty white space on the sides.
 
