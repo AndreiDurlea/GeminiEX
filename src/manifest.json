@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "GeminiEX",
+  "version": "1.0.0",
+  "description": "Makes content on gemini.google.com wider, to fit the entire screen.",
+  "icons": {
+    "16": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://gemini.google.com/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "gemini-ex@andreidurlea.com",
+      "strict_min_version": "109.0"
+    }
+  }
+}

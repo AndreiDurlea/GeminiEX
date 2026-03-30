@@ -1,0 +1,26 @@
+.conversation-container, 
+.input-area-container, 
+.bottom-container {
+    max-width: 95% !important;
+}
+
+/* Speech bubbles */
+.user-query-bubble-with-background,
+.user-query-container {
+    max-width: 100% !important;
+    width: 100% !important;
+    flex: 1 1 auto !important;
+}
+
+.markdown-table-wrapper, 
+.markdown-table-wrapper table,
+.message table {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: table !important;
+}
+
+.message-content {
+    max-width: 100% !important;
+    width: 100% !important;
+}
