@@ -1,15 +1,43 @@
 .conversation-container, 
 .input-area-container, 
-.bottom-container {
+.bottom-container,
+.message-row,
+.message-content,
+.segment-container,
+chat-element,
+[class*="message-row"],
+[class*="model-response"] {
     max-width: 95% !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.conversation-container > * {
+    max-width: 100% !important;
 }
 
 /* Speech bubbles */
-.user-query-bubble-with-background,
-.user-query-container {
+user-message,
+.user-message,
+.user-action-row,
+.user-query-container,
+[class*="user-query-"],
+[class*="user-message"] {
     max-width: 100% !important;
     width: 100% !important;
-    flex: 1 1 auto !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-end !important;
+}
+
+.user-query-bubble-with-background,
+[class*="user-query-bubble"],
+.user-query-text {
+    max-width: 85% !important; 
+    margin-left: auto !important;
+    margin-right: 0 !important;
+    text-align: left !important;
 }
 
 .markdown-table-wrapper, 
